@@ -11,11 +11,9 @@ void loop() {
     data = (char)Serial1.read();
     if(data == '1'){
       digitalWrite(LED, HIGH);
-      delay(1000);
     }
     else if(data == '0'){
       digitalWrite(LED, LOW);
-      delay(1000);
     }
   }
 }
