@@ -1,6 +1,7 @@
-/* Author: Park Kuyeon
- * Title: Arduino UNO - UNO UART Program
- * Description: This is the code about the UNO recieving data from the other UNO
+/*  Date: 2021-06-22
+ *  Author: Park Kuyeon
+ *  Title: Arduino UNO - UNO UART Program
+ *  Description: This is the code about the UNO recieving data from the other UNO
  *              and controls the LED attatched on the UNO and sends LED status to the other UNO
  *              
  * 
