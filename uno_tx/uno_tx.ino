@@ -5,9 +5,9 @@ void setup() {
 }
 
 void loop() {
-  Serial.print('b');
+  Serial.print('0');
   delay(1000);
-  Serial.print('a');
+  Serial.print('1');
   delay(1000);
   // put your main code here, to run repeatedly:
 

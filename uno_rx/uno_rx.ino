@@ -7,14 +7,14 @@ void setup() {
 char data;
 void loop() {
   while(Serial.available()){
-    data = Serial.read();
-    if(data == 'a'){
+    data = (char)Serial.read();
+    if(data == '1'){
       digitalWrite(LED, HIGH);
-      delay(1000);
+      //delay(1000);
     }
-    else if(data == 'b'){
+    else if(data == '0'){
       digitalWrite(LED, LOW);
-      delay(1000);
+      //delay(1000);
     }
   }
 }
