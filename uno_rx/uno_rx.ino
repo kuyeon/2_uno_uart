@@ -11,11 +11,9 @@ void loop() {
     data = (char)Serial1.read();
     if(data == '1'){
       digitalWrite(LED, HIGH);
-      Serial1.print("LED ON\n");
     }
     else if(data == '0'){
       digitalWrite(LED, LOW);
-      Serial1.print("LED OFF\n");
     }
   }
 }
